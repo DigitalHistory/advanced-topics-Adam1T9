@@ -72,7 +72,7 @@ function initializeMap() {
              map: my_map,
              icon: redURL, // this sets the image that represents the marker in the map
              title: "Juno Beach",
-             window_content: '<h2>Juno Beach</h2><p>Juno Beach (For the Roman Goddess of Protection) was the only beachhead assigned to an all Canadian landing force on D-Day. This image is a view out of the landing craft at Juno.</p>'+
+             window_content: '<h2>Juno Beach</h2><p>Juno Beach (For the Roman Goddess of Protection) was the only beachhead assigned to an all Canadian landing force on D-Day. The image below is a view out of the landing craft at Juno.</p>'+
            '<img title="Juno beach"  img src="https://vmcdn.ca/f/files/sudbury/uploadedImages/news/localNews/2014/05/050614_DDay660.JPG;w=630"height= "100px" width= "200px" VSPACE="5"/>'
          },
            {position: new google.maps.LatLng(49.369681, -0.871084),
@@ -80,7 +80,7 @@ function initializeMap() {
              icon: blueURL, // this sets the image that represents the marker in the map to the one
                             // located at the URL which is given by the variable blueURL, see above
              title: "Omaha Beach",
-             window_content: '<h2>Omaha Beach</h2> <p>Omaha Beach(After Omaha Nebraska) was one of two US landing sites. It is perhaps one of the most famous locations as it is often portrayed in movies and has a very infamous photo</p> <img src="https://amedia.britannica.com/668x448/09/47909-004-D01F8233.jpg" height="100px" width="200px"/>'
+             window_content: '<h2>Omaha Beach</h2> <p>Omaha Beach(After Omaha Nebraska) was one of two US landing sites. It is perhaps one of the most famous locations as it is often portrayed in movies and has a very infamous photo (pictured below) of soldiers storming the beach during the inital invasion</p> <img src="https://amedia.britannica.com/668x448/09/47909-004-D01F8233.jpg" height="100px" width="200px"/>'
             },
             {position: new google.maps.LatLng(49.413389, -1.173726),
               map: my_map,
