@@ -1,5 +1,6 @@
 # Operation Overlord (D-Day).
 June 6th, 1944 or D-Day is perhaps one of the most well known dates. D-Day’s gruesome combat has always been portrayed in popular culture with great deal in mediums such as film (*Saving Private Ryan*) or video games (*Call of Duty: WWII*). While these popular culture mediums may capture the severity of the fight, they often fail to capture the actual vast nature fo the entire landings as the distance between beachheads was considerable. Spatial awareness was key to the success of this operation because if any assets were in the wrong place at the wrong time, the whole invasion could have been a failure.
+
 <div class="markers">
   <!-- these buttons hide/show all the markers  -->
   <!-- to hide/show blue or red markers instead, change my_markers below to blue_markers
