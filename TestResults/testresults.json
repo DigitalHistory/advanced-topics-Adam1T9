@@ -1,0 +1,95 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-03-18T15:29:46.839Z",
+    "end": "2018-03-18T15:29:46.908Z",
+    "duration": 69,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "e5cb85e4-9308-42dc-9193-5dfaaefe2e47",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "419950e8-acd7-41b8-bc79-17359979d5e8",
+        "title": "Test if map divs are contained in markdown file",
+        "fullFile": "/Users/adamnangini/Documents/GitHub/advanced-topics-Adam1T9/test/test-maps.js",
+        "file": "/test/test-maps.js",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook",
+            "fullTitle": "Test if map divs are contained in markdown file \"before all\" hook",
+            "timedOut": false,
+            "duration": 60,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "// set up dom with google maps and jquery\n// parse index.md\nmdFile=fs.readFileSync(\"spatial-history/index.md\", \"utf-8\");\nparsedMD = md.render(mdFile);\n//console.log(parsedMD);\ndom = new JSDOM(parsedMD);\nwindow=dom.window;\ndocument=window.document;\nconsole.log(dom.window.document.querySelector('div#mapcontainer'))",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1bf0d10e-d8e5-4ec7-9c74-6f602ac2f640",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "should contain mapcontainer element with map_canvas and map_legend",
+            "fullTitle": "Test if map divs are contained in markdown file should contain mapcontainer element with map_canvas and map_legend",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(document.querySelector('div#mapcontainer'), \"no div with id mapcontainer\").to.exist;\nexpect(document.querySelector('div#mapcontainer div#map_canvas'), \"no div with id map_canvas inside mapcontainer\").to.exist;\n//expect(document.querySelector('div#mapcontainer div#map_legend'), \"no div with id map_legend inside mapcontainer\").to.exist;",
+            "err": {},
+            "isRoot": false,
+            "uuid": "e55fd2ae-e543-4b7d-ab81-21269307e914",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "e55fd2ae-e543-4b7d-ab81-21269307e914"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 1,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
