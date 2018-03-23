@@ -17,7 +17,7 @@ var loadPopcorn = function(){
                                     simpleSheet: false } );
     // if you're having problems with this, you can uncomment the next line and
     // look in the browser's console to see if the data looks like it's supposed to.
-    // console.log(mytables.data);
+    console.log(mytables.data);
 
     // This is our "callback function".  When tabletop grabs the spreadsheet data,
     // it gets sent here and processed.  We take advantage of this feature of tabletop
