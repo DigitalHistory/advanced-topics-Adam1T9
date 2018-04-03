@@ -24,10 +24,6 @@ Moreover, many of the documents held at UTARMS are constructed on material such 
 
 The overall effect of research opportunities and preservation ameliorate the study of historiography. When creating a historiography historians examine the multiple viewpoints about a given subject based on the evidence at hand. By creating a digital repository of potentially untouched or lost information, this conversation of historiography becomes a much more enriched and accurate discussion on events throughout history became there is more information available. For example, UTARMS has all the land agreements and purchases between the university and city of Toronto. If someone wanted to know why the university developed in a specific pattern or why central Toronto developed like it did, university records could shed new light on why an agreement happened or the origins of it. The ability to enrich historiographic discussion is a paramount objective in the study of history because the accuracy of our documented history depends on how much information is available to it.  
 
-
-
-
-
 # Budget
 
 <https://docs.google.com/spreadsheets/d/1hNTNssaDfSYYurLAThTWQpWWpdepbQ53K1FmQxYeRv8/edit?usp=sharing>
