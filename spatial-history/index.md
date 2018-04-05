@@ -1,21 +1,5 @@
-# This Map Should Deal with a Historical Topic You Care About
-
-Your first task will be to locate some real places.  You can get the precise locations at various services, e.g [latlong.net](http://www.latlong.net/).
-
-Then add those places to the marker array in [../js/maps-setup.js](../js/maps-setup.js) (see instructions there).
-
-replace this text and the text with your essay. But be sure not to eliminate the html elements that
-are contained inside this textarea, or [your map won't work at all!][1] [1](#one)
-<figure>
-![](https://upload.wikimedia.org/wikipedia/commons/a/ab/Lolcat_in_folder.jpg "this is the alt text")<figcaption>caption</figcaption>
-</figure>
-It makes sense to put an introductory paragraph here, above the map and buttons. To change the bootswatch thenme, change "united" to one of the other theme names listed at [strapdownjs.com](http://strapdownjs.com/).
-
-[1]: http://hello.com
-[^1]: This is my first footnote
-
-<a id="#one">1: </a> some text here
-
+# Operation Overlord (D-Day).
+June 6th, 1944 or D-Day is perhaps one of the most well known dates. D-Day’s gruesome combat has always been portrayed in popular culture with great deal in mediums such as film (*Saving Private Ryan*) or video games (*Call of Duty: WWII*). While these popular culture mediums may capture the severity of the fight, they often fail to capture the actual vast nature fo the entire landings as the distance between beachheads was considerable. Spatial awareness was key to the success of this operation because if any assets were in the wrong place at the wrong time, the whole invasion could have been a failure.
 
 <div class="markers">
   <!-- these buttons hide/show all the markers  -->
@@ -30,10 +14,23 @@ It makes sense to put an introductory paragraph here, above the map and buttons.
   <div id="map_legend"></div>
 </div>
 
-# Next Section
+## **Before the Landing**
 
-The rest of your essay should go under the map, probably.
+The five beaches marked along the Normandy Coastline were Gold, Sword, Juno, Omaha and Utah beach. Gold and Sword beach’s were attacked by the British, Juno by the Canadians leaving the Americans with Omaha and Utah beaches. Consider the planning involved with such an operation and the exact detailing allied intelligence had to do when building maps for the landing. In total, 156,000 soldiers were landed on the five beaches which spanned approximately 100km [Richard Foot](http://www.thecanadianencyclopedia.ca/en/article/normandy-invasion/). Furthermore, on top of the landing forces, British, Canadian and US paratroopers landed behind enemy lines with the specific task of disabling key communication [Ibid](http://www.thecanadianencyclopedia.ca/en/article/normandy-invasion/). Why is this important? Well, not only did Allied intelligence need to create a detailed map for their own spatial awareness they also needed to transfer this knowledge to the soldiers trying to land, “As soldiers waited in their camps, they pored over maps, photographs and three-dimensional models of the invasion beaches, constructed from information meticulously collected over the previous months. The models and pictures showed the layout of the Normandy coastline and important landmarks — houses, church spires, headlands — so that every officer and soldier would know their objectives and what awaited them”[Ibid](http://www.thecanadianencyclopedia.ca/en/article/normandy-invasion/).
 
-## in sections like this
-also _italics_ and __bold__ which can also be written *like this* or **like this**
-etc. Be sure to [make use of links](http://digital.hackinghistory.ca) -- that's one of the reasons we write on the Web, and I've asked you to use links for all yor footnotes/references as well.  
+## **Paratroopers**
+
+If the paratroopers landed off target (which they did on D-Day), they would need to be able to orientate themselves without adequate knowledge of the ground below. This was an incredible accomplishment considering that France had been occupied by Germany since 1940 making the only source of detailed maps of the area arial photos or from resistance groups. For example, Sword and Utah beach were both key targets that involved the airborne divisions before the invasion began [Jesse Greenspan](https://www.history.com/news/landing-at-normandy-the-5-beaches-of-d-day). At these locations, paratroopers missed their marks and landings but thanks to proper training and detailed mappings of the area, not only were they able to destroy their key objectives, but they were also able to link up with the invading forces once they landed on the beaches as well and provide support [Ibid](https://www.history.com/news/landing-at-normandy-the-5-beaches-of-d-day). It is noteworthy to consider how the paratroopers and invading forces formed a pincer like movement in two major ways that is actually very intuitive. Firstly, Utah and Sword were the two most extreme easterly and westerly beaches (See the Map above) meaning that as they were taken, they could apply pressure to the sectors in the middle forcing the Nazis to have to worry about forces moving across. Second, was the paratroopers being able to link up with the landing forces meant that they attacked from behind the defending Germans while their fellow soldiers attacked from the front. This would have forced the Nazi’s to fight on multiple fronts.
+
+## **The Beaches Themselves**
+
+There was also the planning of when each set of landing crafts would reach the beaches. On that day the tide produced varying results. For example, British soldiers landed on Sword Beach approximately one hour early which made them the only landing division for the Nazis to focus on over the 100km stretch while at Juno, the Canadians landed an hour late due to rough seas [Ibid](https://www.history.com/news/landing-at-normandy-the-5-beaches-of-d-day). Why is this significant to spatial awareness? It is significant because navigating the sea wall is incredibly difficult and despite the tide being an uncontrollable factor, the ability for landing crafts to still maintain formation for landing locations without a GPS is important. If these crafts are unable to navigate, they are unable to effectively deliver enough men on the beach to overwhelm the defences. As seen in this image <img src= "https://s3.amazonaws.com/tce-live2/media/cache/media/bb05eb99-e533-4e8d-aafe-6ae70bdbf472_thumbnail_600_600.jpg" Align="left" HSPACE="10" VSPACE="10"/>, one can see the pathing that each landing force was to follow and where they were supposed to meet up to establish a beachhead as well as the paratrooper locations that the Allies had so painstakingly planed. Each troop movement was choreographed and marked so that units did not have to worry about where another one was, everyone could move as one single massive force. As each force completed the taking of their beachhead, the Allies then began creating floating harbours to pour in even more resources to successfully push back the German resistance[Robert Foot](http://www.thecanadianencyclopedia.ca/en/article/normandy-invasion/).
+
+
+## **Some Spatial Failures**
+
+However, it was not all sunshine and roses for the planning D-day. There were some errors made during the invasion that heavily impacted the lives of many. For example, the armor that was supposed to support the Canadians on Juno was very out of position and disorganized. It failed to identify key battalions it should have been bound to and as a result ended leaving them exposed or running over wounded soldiers in the chaos of trying to recover from navigation error, which either further injured them or worse. In fact, it was so disorganized, Canadian commanders disabled some of their own tanks in order to allow for them to reorganize their men to effectively move them across the battlefield [Jesse Greenspan](https://www.history.com/news/landing-at-normandy-the-5-beaches-of-d-day). The American’s at Omaha also suffered greatly as the Allied naval bombardment (which was done just prior to the soldiers landing)  was supposed to have greatly weakened the German defences. However, the coordinates of the bombardment were not accurately inputted and as a result, there was still heavy German resistance with Omaha being bloodiest beach of the D-Day landings killing 2000 Americans on that beach alone[Robert Foot](http://www.thecanadianencyclopedia.ca/en/article/normandy-invasion/).  This exemplifies how in such a dense combat zone, the misplacement of assets and failure to be fully aware of the battlefield layout can cost more than just time, but lives also.
+
+## **Conclusion**
+
+Overall, the Normandy Invasion will always be one of the most impressive amphibious raids and one of the most important as it saved Europe. The success of this raid comes from not only the men who were able to execute those orders on the battlefield, but to those men and women who helped curate and study the geographical layouts of the beaches for the invading forces. It is a strong example of of spatial history being incredibly important when studying the successes and failures in the topic of military history.   

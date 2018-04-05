@@ -31,7 +31,7 @@ div#map_canvas {
 have to add some extra css to the mapcontainer div */
 div#map_legend {
     max-width:30%;
-    float:left;
+    float:right;
 }
 
 /* if you want, you can make the text in the legend less ugly by adding
@@ -96,6 +96,10 @@ div.gm-style-iw blockquote {
 /* Here's some adidtional CSS for the oral history project.  */
 
 /* AUDIO PLAYER */
+body{
+  background-color:#E8E8E0
+}
+
 #media {
     border: 4px solid #880000;
     width: 100%;
@@ -117,4 +121,3 @@ div.gm-style-iw blockquote {
    background-color: #F4F4F4;
    padding: 10px;
 }
-
